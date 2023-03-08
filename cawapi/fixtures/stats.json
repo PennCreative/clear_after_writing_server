@@ -1,0 +1,12 @@
+[
+  {
+    "model": "cawapi.stat",
+    "pk": 1,
+    "fields": {
+      "id": 1,
+      "journal": 1,
+      "survey": 1,
+      "rating": 8
+    }
+  }
+]

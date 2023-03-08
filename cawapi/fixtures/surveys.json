@@ -1,0 +1,29 @@
+[
+  {
+    "model": "cawapi.survey",
+    "pk": 1,
+    "fields": {
+      "id": 1,
+      "question": "How many hours of sleep did you get?",
+      "answer": 8
+    }
+  },
+  {
+    "model": "cawapi.survey",
+    "pk": 2,
+    "fields": {
+      "id": 1,
+      "question": "What would you rate today?",
+      "answer": 7
+    }
+  },
+  {
+    "model": "cawapi.survey",
+    "pk": 3,
+    "fields": {
+      "id": 1,
+      "question": "How would you rate your productivity?",
+      "answer": 3
+    }
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "model": "cawapi.journal",
+    "pk": 1,
+    "fields": {
+      "id": 1,
+      "writer": 1,
+      "date": "2023-01-01",
+      "goal_entry": "To be better",
+      "distraction": "Phone",
+      "significant": false
+    }
+  },
+  {
+    "model": "cawapi.journal",
+    "pk": 2,
+    "fields": {
+      "id": 2,
+      "writer": 1,
+      "date": "2023-01-02",
+      "goal_entry": "To do better",
+      "distraction": "Games",
+      "significant": false
+    }
+  },
+  {
+    "model": "cawapi.journal",
+    "pk": 3,
+    "fields": {
+      "id": 3,
+      "writer": 1,
+      "date": "2023-01-03",
+      "goal_entry": "To no be bad",
+      "distraction": "Movies",
+      "significant": false
+    }
+  }
+]
