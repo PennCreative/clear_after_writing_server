@@ -7,5 +7,6 @@ class Journal(models.Model):
     goal_entry = models.CharField(max_length=500)
     affirmation = models.CharField(max_length=255)
     distraction = models.CharField(max_length=255)
+    entry = models.CharField(max_length=1000)
     significant = models.BooleanField(default=False)
-    overall_rating = models.FloatField(default=0)
+    overall_rating = models.FloatField(default=0, null=True)

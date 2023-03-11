@@ -10,7 +10,7 @@ from django.db.models import Avg
 class JournalSerializer(serializers.ModelSerializer):
     class Meta:
         model = Journal
-        fields = ('id', 'writer', 'date', 'goal_entry', 'affirmation', 'distraction', 'significant', 'overall_rating')
+        fields = ('id', 'writer', 'date', 'goal_entry', 'affirmation', 'distraction', 'significant', 'entry', 'overall_rating')
         depth = 1
 
 class JournalView(ViewSet):
@@ -52,6 +52,7 @@ class JournalView(ViewSet):
           affirmation = request.data["affirmation"],
           distraction = request.data["distraction"],
           significant = request.data["significant"],
+          entry = request.data["entry"]
         )
         
         # Retrieve survey ratings for the journal and calculate the overall rating
@@ -77,6 +78,7 @@ class JournalView(ViewSet):
         journal.affirmation = request.data["affirmation"]
         journal.distraction = request.data["distraction"]
         journal.significant = request.data["significant"]
+        journal.entry = request.data["entry"]
         journal.save()
 
         return Response(None, status=status.HTTP_204_NO_CONTENT)
@@ -98,3 +100,16 @@ class todaysJournalView(generics.ListCreateAPIView):
             return Journal.objects.filter(date=today)
         else:
             return Journal.objects.filter(date=date)
+class WriterJournalView(ViewSet):
+    """Request Handlers for Journals filtered by writer's id"""
+    serializer_class = JournalSerializer
+    
+    @action(detail=False, methods=['get'])
+    def list_by_writer_id(self, request):
+        writer_id = request.query_params.get('writer_id')
+        if not writer_id:
+            return Response({'message': 'writer_id query parameter is required'}, status=status.HTTP_400_BAD_REQUEST)
+        
+        journals = Journal.objects.filter(writer__id=writer_id)
+        serializer = self.serializer_class(journals, many=True)
+        return Response(serializer.data)

@@ -5,5 +5,5 @@ from .survey import Survey
 
 class Stat(models.Model):
     journal = models.ForeignKey(Journal, on_delete=models.CASCADE, related_name='journal_id')
-    survey = models.ForeignKey(Survey, on_delete=models.CASCADE, related_name='question_id')
+    survey = models.ForeignKey(Survey, on_delete=models.CASCADE, related_name='stats')
     rating = models.PositiveIntegerField()

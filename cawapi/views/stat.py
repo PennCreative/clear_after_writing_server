@@ -9,6 +9,11 @@ class StatSerializer(serializers.ModelSerializer):
         fields = ('id', 'journal', 'survey', 'rating')
         depth = 1
 
+class SurveySerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Survey
+        fields = ('id', 'question', 'answer')
+        depth = 1
 
 class StatView(ViewSet):
     """Requests for Stat"""
@@ -23,10 +28,15 @@ class StatView(ViewSet):
     def list(self, request):
         """Get requests for Stats"""
         stat = Stat.objects.all()
-        journal = self.request.query_params.get('journal_id', None)
-
-        if journal is not None:
-            stat = stat.filter(journal_id=journal)
+        journal_id = request.query_params.get('journal_id')
+        if journal_id is not None:
+            surveys = Survey.objects.filter(stats__journal_id=journal_id)
+            serializer = SurveySerializer(surveys, many=True)
+            return Response(serializer.data)
+        else:
+            stat = Stat.objects.all()
+            serializer = StatSerializer(stat, many=True)
+            return Response(serializer.data)
 
         serializer = StatSerializer(stat, many=True)
         return Response(serializer.data)
@@ -35,11 +45,12 @@ class StatView(ViewSet):
         """POST for Stats"""
         journal = Journal.objects.get(pk=request.data['journal'])
         survey = Survey.objects.get(pk=request.data['survey'])
+        rating = Journal.objects.get(pk=request.data['overall_rating'])
 
         stat = Stat.objects.create(
             journal = journal,
             survey = survey,
-            rating = request.data["rating"],
+            rating = rating,
         )
 
         serializer = StatSerializer(stat)

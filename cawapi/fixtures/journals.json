@@ -4,11 +4,12 @@
     "pk": 1,
     "fields": {
       "id": 1,
-      "writer": 1,
+      "writer": 4,
       "date": "2023-01-01",
-      "goal_entry": "To be better",
-      "distraction": "Phone",
-      "significant": false
+      "goal_entry": "Wake up 30mins earlier than usual",
+      "distraction": "Daydreaming",
+      "significant": false,
+      "entry": "JSON File Entry"
     }
   },
   {
@@ -16,11 +17,12 @@
     "pk": 2,
     "fields": {
       "id": 2,
-      "writer": 1,
+      "writer": 4,
       "date": "2023-01-02",
       "goal_entry": "To do better",
       "distraction": "Games",
-      "significant": false
+      "significant": false,
+      "entry": "JSON File Entry"
     }
   },
   {
@@ -28,11 +30,376 @@
     "pk": 3,
     "fields": {
       "id": 3,
-      "writer": 1,
+      "writer": 4,
       "date": "2023-01-03",
       "goal_entry": "To no be bad",
       "distraction": "Movies",
-      "significant": false
+      "significant": false,
+      "entry": "JSON File Entry"
+    }
+  },
+  {
+    "model": "cawapi.journal",
+    "pk": 4,
+    "fields": {
+      "id": 4,
+      "writer": 4,
+      "date": "2023-01-04",
+      "goal_entry": "To no be bad",
+      "distraction": "Movies",
+      "significant": false,
+      "entry": "JSON File Entry"
+    }
+  },
+  {
+    "model": "cawapi.journal",
+    "pk": 5,
+    "fields": {
+      "id": 5,
+      "writer": 4,
+      "date": "2023-01-05",
+      "goal_entry": "To no be bad",
+      "distraction": "Movies",
+      "significant": false,
+      "entry": "JSON File Entry"
+    }
+  },
+  {
+    "model": "cawapi.journal",
+    "pk": 6,
+    "fields": {
+      "id": 6,
+      "writer": 4,
+      "date": "2023-01-06",
+      "goal_entry": "To no be bad",
+      "distraction": "Movies",
+      "significant": false,
+      "entry": "JSON File Entry"
+    }
+  },
+  {
+    "model": "cawapi.journal",
+    "pk": 7,
+    "fields": {
+      "id": 7,
+      "writer": 4,
+      "date": "2023-01-07",
+      "goal_entry": "To no be bad",
+      "distraction": "Movies",
+      "significant": false,
+      "entry": "JSON File Entry"
+    }
+  },
+  {
+    "model": "cawapi.journal",
+    "pk": 8,
+    "fields": {
+      "id": 8,
+      "writer": 4,
+      "date": "2023-01-08",
+      "goal_entry": "To no be bad",
+      "distraction": "Movies",
+      "significant": false,
+      "entry": "JSON File Entry"
+    }
+  },
+  {
+    "model": "cawapi.journal",
+    "pk": 9,
+    "fields": {
+      "id": 9,
+      "writer": 4,
+      "date": "2023-01-09",
+      "goal_entry": "To no be bad",
+      "distraction": "Movies",
+      "significant": false,
+      "entry": "JSON File Entry"
+    }
+  },
+  {
+    "model": "cawapi.journal",
+    "pk": 10,
+    "fields": {
+      "id": 10,
+      "writer": 4,
+      "date": "2023-01-10",
+      "goal_entry": "To no be bad",
+      "distraction": "Movies",
+      "significant": false,
+      "entry": "JSON File Entry"
+    }
+  },
+  {
+    "model": "cawapi.journal",
+    "pk": 11,
+    "fields": {
+      "id": 11,
+      "writer": 4,
+      "date": "2023-01-11",
+      "goal_entry": "To no be bad",
+      "distraction": "Movies",
+      "significant": false,
+      "entry": "JSON File Entry"
+    }
+  },
+  {
+    "model": "cawapi.journal",
+    "pk": 12,
+    "fields": {
+      "id": 12,
+      "writer": 4,
+      "date": "2023-01-12",
+      "goal_entry": "To no be bad",
+      "distraction": "Movies",
+      "significant": false,
+      "entry": "JSON File Entry"
+    }
+  },
+  {
+    "model": "cawapi.journal",
+    "pk": 13,
+    "fields": {
+      "id": 13,
+      "writer": 4,
+      "date": "2023-01-13",
+      "goal_entry": "To no be bad",
+      "distraction": "Movies",
+      "significant": false,
+      "entry": "JSON File Entry"
+    }
+  },
+  {
+    "model": "cawapi.journal",
+    "pk": 14,
+    "fields": {
+      "id": 14,
+      "writer": 4,
+      "date": "2023-01-14",
+      "goal_entry": "To no be bad",
+      "distraction": "Movies",
+      "significant": false,
+      "entry": "JSON File Entry"
+    }
+  },
+  {
+    "model": "cawapi.journal",
+    "pk": 15,
+    "fields": {
+      "id": 15,
+      "writer": 4,
+      "date": "2023-01-15",
+      "goal_entry": "To no be bad",
+      "distraction": "Movies",
+      "significant": false,
+      "entry": "JSON File Entry"
+    }
+  },
+  {
+    "model": "cawapi.journal",
+    "pk": 16,
+    "fields": {
+      "id": 16,
+      "writer": 4,
+      "date": "2023-01-16",
+      "goal_entry": "To no be bad",
+      "distraction": "Movies",
+      "significant": false,
+      "entry": "JSON File Entry"
+    }
+  },
+  {
+    "model": "cawapi.journal",
+    "pk": 17,
+    "fields": {
+      "id": 17,
+      "writer": 4,
+      "date": "2023-01-17",
+      "goal_entry": "To no be bad",
+      "distraction": "Movies",
+      "significant": false,
+      "entry": "JSON File Entry"
+    }
+  },
+  {
+    "model": "cawapi.journal",
+    "pk": 18,
+    "fields": {
+      "id": 18,
+      "writer": 4,
+      "date": "2023-01-18",
+      "goal_entry": "To no be bad",
+      "distraction": "Movies",
+      "significant": false,
+      "entry": "JSON File Entry"
+    }
+  },
+  {
+    "model": "cawapi.journal",
+    "pk": 19,
+    "fields": {
+      "id": 19,
+      "writer": 4,
+      "date": "2023-01-19",
+      "goal_entry": "To no be bad",
+      "distraction": "Movies",
+      "significant": false,
+      "entry": "JSON File Entry"
+    }
+  },
+  {
+    "model": "cawapi.journal",
+    "pk": 20,
+    "fields": {
+      "id": 20,
+      "writer": 4,
+      "date": "2023-01-20",
+      "goal_entry": "To no be bad",
+      "distraction": "Movies",
+      "significant": false,
+      "entry": "JSON File Entry"
+    }
+  },
+  {
+    "model": "cawapi.journal",
+    "pk": 21,
+    "fields": {
+      "id": 21,
+      "writer": 4,
+      "date": "2023-01-21",
+      "goal_entry": "To no be bad",
+      "distraction": "Movies",
+      "significant": false,
+      "entry": "JSON File Entry"
+    }
+  },
+  {
+    "model": "cawapi.journal",
+    "pk": 22,
+    "fields": {
+      "id": 22,
+      "writer": 4,
+      "date": "2023-01-22",
+      "goal_entry": "To no be bad",
+      "distraction": "Movies",
+      "significant": false,
+      "entry": "JSON File Entry"
+    }
+  },
+  {
+    "model": "cawapi.journal",
+    "pk": 23,
+    "fields": {
+      "id": 23,
+      "writer": 4,
+      "date": "2023-01-23",
+      "goal_entry": "To no be bad",
+      "distraction": "Movies",
+      "significant": false,
+      "entry": "JSON File Entry"
+    }
+  },
+  {
+    "model": "cawapi.journal",
+    "pk": 24,
+    "fields": {
+      "id": 24,
+      "writer": 4,
+      "date": "2023-01-24",
+      "goal_entry": "To no be bad",
+      "distraction": "Movies",
+      "significant": false,
+      "entry": "JSON File Entry"
+    }
+  },
+  {
+    "model": "cawapi.journal",
+    "pk": 25,
+    "fields": {
+      "id": 25,
+      "writer": 4,
+      "date": "2023-01-25",
+      "goal_entry": "To no be bad",
+      "distraction": "Movies",
+      "significant": false,
+      "entry": "JSON File Entry"
+    }
+  },
+  {
+    "model": "cawapi.journal",
+    "pk": 26,
+    "fields": {
+      "id": 26,
+      "writer": 4,
+      "date": "2023-01-26",
+      "goal_entry": "Write down three things you're proud of accomplishing",
+      "distraction": "Youtube rabbit holes",
+      "significant": false,
+      "entry": "JSON File Entry"
+    }
+  },
+  {
+    "model": "cawapi.journal",
+    "pk": 27,
+    "fields": {
+      "id": 27,
+      "writer": 4,
+      "date": "2023-01-27",
+      "goal_entry": "Practice mindful breathing for 5mins",
+      "distraction": "Drama",
+      "significant": false,
+      "entry": "JSON File Entry"
+    }
+  },
+  {
+    "model": "cawapi.journal",
+    "pk": 28,
+    "fields": {
+      "id": 28,
+      "writer": 4,
+      "date": "2023-01-28",
+      "goal_entry": "Do something creative",
+      "distraction": "Social Media",
+      "significant": false,
+      "entry": "JSON File Entry"
+    }
+  },
+  {
+    "model": "cawapi.journal",
+    "pk": 29,
+    "fields": {
+      "id": 29,
+      "writer": 4,
+      "date": "2023-01-29",
+      "goal_entry": "Experiment with a new exercise routine",
+      "distraction": "Movies",
+      "significant": false,
+      "entry": "JSON File Entry"
+    }
+  },
+  {
+    "model": "cawapi.journal",
+    "pk": 30,
+    "fields": {
+      "id": 30,
+      "writer": 4,
+      "date": "2023-01-30",
+      "goal_entry": "Spend 30 minutes learning a new topic",
+      "distraction": "TV",
+      "significant": false,
+      "entry": "JSON File Entry"
+    }
+  },
+  {
+    "model": "cawapi.journal",
+    "pk": 31,
+    "fields": {
+      "id": 31,
+      "writer": 4,
+      "date": "2023-01-31",
+      "goal_entry": "Go for a hike or a long walk in a scenic area",
+      "distraction": "My phone",
+      "significant": false,
+      "entry": "JSON File Entry"
     }
   }
 ]

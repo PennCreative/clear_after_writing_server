@@ -18,13 +18,15 @@ from django.urls import path
 from django.conf.urls import include
 from rest_framework import routers
 from cawapi.views import register_user, check_user
-from cawapi.views import UserView, JournalView, SurveyView, StatView, todaysJournalView
+from cawapi.views import UserView, JournalView, SurveyView, StatView, todaysJournalView, WriterJournalView
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'users', UserView, 'user')
 router.register(r'journals', JournalView, 'journal')
 router.register(r'surveys', SurveyView, 'survey')
 router.register(r'stats', StatView, 'stat')
+router.register(r'writer-journals', WriterJournalView, 'writer-journal')
+
 
 urlpatterns = [
     path('', include(router.urls)),
@@ -33,4 +35,6 @@ urlpatterns = [
     path('checkuser', check_user),
     path('today', todaysJournalView.as_view(), name='today-journals'),
     path('<str:date>', todaysJournalView.as_view(), name='journals-by-date'),
+    path('writer-journals/', WriterJournalView.as_view({'get': 'list_by_writer_id'}), name='writer-journals'),
+    path('surveys/', StatView.as_view({'get': 'list'}), name='surveys-by-journal-id')
 ]

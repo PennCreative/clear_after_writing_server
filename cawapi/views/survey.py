@@ -43,8 +43,8 @@ class SurveyView(ViewSet):
         """PUT requests for Survey"""
         survey = Survey.objects.get(pk=pk)
 
-        question = request.data["question"],
-        answer = request.data["answer"],
+        survey.question = request.data["question"]
+        survey.answer = request.data["answer"]
         survey.save()
 
         return Response(None, status=status.HTTP_204_NO_CONTENT)
