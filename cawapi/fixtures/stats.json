@@ -1,0 +1,912 @@
+[
+  {
+    "model": "cawapi.stat",
+    "pk": 1,
+    "fields": {
+      "id": 1,
+      "journal": 1,
+      "survey": 1,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 2,
+    "fields": {
+      "id": 2,
+      "journal": 1,
+      "survey": 2,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 3,
+    "fields": {
+      "id": 3,
+      "journal": 1,
+      "survey": 3,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 4,
+    "fields": {
+      "id": 4,
+      "journal": 2,
+      "survey": 4,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 5,
+    "fields": {
+      "id": 5,
+      "journal": 2,
+      "survey": 5,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 6,
+    "fields": {
+      "id": 6,
+      "journal": 2,
+      "survey": 6,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 7,
+    "fields": {
+      "id": 7,
+      "journal": 3,
+      "survey": 7,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 8,
+    "fields": {
+      "id": 8,
+      "journal": 3,
+      "survey": 8,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 9,
+    "fields": {
+      "id": 9,
+      "journal": 3,
+      "survey": 9,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 10,
+    "fields": {
+      "id": 10,
+      "journal": 4,
+      "survey": 10,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 11,
+    "fields": {
+      "id": 11,
+      "journal": 4,
+      "survey": 11,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 12,
+    "fields": {
+      "id": 12,
+      "journal": 4,
+      "survey": 12,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 13,
+    "fields": {
+      "id": 13,
+      "journal": 5,
+      "survey": 13,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 14,
+    "fields": {
+      "id": 14,
+      "journal": 5,
+      "survey": 14,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 15,
+    "fields": {
+      "id": 15,
+      "journal": 5,
+      "survey": 15,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 16,
+    "fields": {
+      "id": 16,
+      "journal": 6,
+      "survey": 16,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 17,
+    "fields": {
+      "id": 17,
+      "journal": 6,
+      "survey": 17,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 18,
+    "fields": {
+      "id": 18,
+      "journal": 6,
+      "survey": 18,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 19,
+    "fields": {
+      "id": 19,
+      "journal": 7,
+      "survey": 19,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 20,
+    "fields": {
+      "id": 20,
+      "journal": 7,
+      "survey": 20,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 21,
+    "fields": {
+      "id": 21,
+      "journal": 7,
+      "survey": 21,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 22,
+    "fields": {
+      "id": 22,
+      "journal": 8,
+      "survey": 22,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 23,
+    "fields": {
+      "id": 23,
+      "journal": 8,
+      "survey": 23,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 24,
+    "fields": {
+      "id": 24,
+      "journal": 8,
+      "survey": 24,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 25,
+    "fields": {
+      "id": 25,
+      "journal": 9,
+      "survey": 25,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 26,
+    "fields": {
+      "id": 26,
+      "journal": 9,
+      "survey": 26,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 27,
+    "fields": {
+      "id": 27,
+      "journal": 9,
+      "survey": 27,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 28,
+    "fields": {
+      "id": 28,
+      "journal": 10,
+      "survey": 28,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 29,
+    "fields": {
+      "id": 29,
+      "journal": 10,
+      "survey": 29,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 30,
+    "fields": {
+      "id": 30,
+      "journal": 10,
+      "survey": 30,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 31,
+    "fields": {
+      "id": 31,
+      "journal": 11,
+      "survey": 31,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 32,
+    "fields": {
+      "id": 32,
+      "journal": 11,
+      "survey": 32,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 33,
+    "fields": {
+      "id": 33,
+      "journal": 11,
+      "survey": 33,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 34,
+    "fields": {
+      "id": 34,
+      "journal": 12,
+      "survey": 34,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 35,
+    "fields": {
+      "id": 35,
+      "journal": 12,
+      "survey": 35,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 36,
+    "fields": {
+      "id": 36,
+      "journal": 12,
+      "survey": 36,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 37,
+    "fields": {
+      "id": 37,
+      "journal": 13,
+      "survey": 37,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 13,
+    "fields": {
+      "id": 13,
+      "journal": 13,
+      "survey": 38,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 39,
+    "fields": {
+      "id": 39,
+      "journal": 13,
+      "survey": 39,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 40,
+    "fields": {
+      "id": 40,
+      "journal": 14,
+      "survey": 40,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 41,
+    "fields": {
+      "id": 41,
+      "journal": 14,
+      "survey": 41,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 42,
+    "fields": {
+      "id": 42,
+      "journal": 14,
+      "survey": 42,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 43,
+    "fields": {
+      "id": 43,
+      "journal": 15,
+      "survey": 43,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 44,
+    "fields": {
+      "id": 44,
+      "journal": 15,
+      "survey": 44,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 45,
+    "fields": {
+      "id": 45,
+      "journal": 15,
+      "survey": 45,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 46,
+    "fields": {
+      "id": 46,
+      "journal": 16,
+      "survey": 46,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 47,
+    "fields": {
+      "id": 47,
+      "journal": 16,
+      "survey": 47,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 48,
+    "fields": {
+      "id": 48,
+      "journal": 16,
+      "survey": 48,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 49,
+    "fields": {
+      "id": 49,
+      "journal": 17,
+      "survey": 49,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 50,
+    "fields": {
+      "id": 50,
+      "journal": 17,
+      "survey": 50,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 51,
+    "fields": {
+      "id": 51,
+      "journal": 17,
+      "survey": 51,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 52,
+    "fields": {
+      "id": 52,
+      "journal": 18,
+      "survey": 52,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 53,
+    "fields": {
+      "id": 53,
+      "journal": 18,
+      "survey": 53,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 54,
+    "fields": {
+      "id": 54,
+      "journal": 18,
+      "survey": 54,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 55,
+    "fields": {
+      "id": 55,
+      "journal": 19,
+      "survey": 55,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 56,
+    "fields": {
+      "id": 56,
+      "journal": 19,
+      "survey": 56,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 57,
+    "fields": {
+      "id": 57,
+      "journal": 19,
+      "survey": 57,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 58,
+    "fields": {
+      "id": 58,
+      "journal": 20,
+      "survey": 58,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 59,
+    "fields": {
+      "id": 59,
+      "journal": 20,
+      "survey": 59,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 60,
+    "fields": {
+      "id": 60,
+      "journal": 20,
+      "survey": 60,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 61,
+    "fields": {
+      "id": 61,
+      "journal": 21,
+      "survey": 61,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 62,
+    "fields": {
+      "id": 62,
+      "journal": 21,
+      "survey": 62,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 63,
+    "fields": {
+      "id": 63,
+      "journal": 21,
+      "survey": 63,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 64,
+    "fields": {
+      "id": 64,
+      "journal": 22,
+      "survey": 64,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 65,
+    "fields": {
+      "id": 65,
+      "journal": 22,
+      "survey": 65,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 67,
+    "fields": {
+      "id": 67,
+      "journal": 23,
+      "survey": 67,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 68,
+    "fields": {
+      "id": 68,
+      "journal": 23,
+      "survey": 68,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 69,
+    "fields": {
+      "id": 69,
+      "journal": 23,
+      "survey": 69,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 70,
+    "fields": {
+      "id": 70,
+      "journal": 24,
+      "survey": 70,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 71,
+    "fields": {
+      "id": 71,
+      "journal": 24,
+      "survey": 71,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 73,
+    "fields": {
+      "id": 73,
+      "journal": 25,
+      "survey": 73,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 74,
+    "fields": {
+      "id": 74,
+      "journal": 25,
+      "survey": 74,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 75,
+    "fields": {
+      "id": 75,
+      "journal": 25,
+      "survey": 75,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 76,
+    "fields": {
+      "id": 76,
+      "journal": 26,
+      "survey": 76,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 77,
+    "fields": {
+      "id": 77,
+      "journal": 26,
+      "survey": 77,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 78,
+    "fields": {
+      "id": 78,
+      "journal": 26,
+      "survey": 78,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 79,
+    "fields": {
+      "id": 79,
+      "journal": 27,
+      "survey": 79,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 80,
+    "fields": {
+      "id": 80,
+      "journal": 27,
+      "survey": 80,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 81,
+    "fields": {
+      "id": 81,
+      "journal": 27,
+      "survey": 81,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 82,
+    "fields": {
+      "id": 82,
+      "journal": 28,
+      "survey": 82,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 83,
+    "fields": {
+      "id": 83,
+      "journal": 28,
+      "survey": 83,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 84,
+    "fields": {
+      "id": 84,
+      "journal": 28,
+      "survey": 84,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 85,
+    "fields": {
+      "id": 85,
+      "journal": 29,
+      "survey": 85,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 86,
+    "fields": {
+      "id": 86,
+      "journal": 29,
+      "survey": 86,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 87,
+    "fields": {
+      "id": 87,
+      "journal": 29,
+      "survey": 87,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 88,
+    "fields": {
+      "id": 88,
+      "journal": 30,
+      "survey": 88,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 89,
+    "fields": {
+      "id": 89,
+      "journal": 30,
+      "survey": 89,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 90,
+    "fields": {
+      "id": 90,
+      "journal": 30,
+      "survey": 90,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 91,
+    "fields": {
+      "id": 91,
+      "journal": 31,
+      "survey": 91,
+      "rating": 5
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 92,
+    "fields": {
+      "id": 92,
+      "journal": 31,
+      "survey": 92,
+      "rating": 4
+    }
+  },
+  {
+    "model": "cawapi.stat",
+    "pk": 93,
+    "fields": {
+      "id": 93,
+      "journal": 31,
+      "survey": 93,
+      "rating": 2
+    }
+  }
+]

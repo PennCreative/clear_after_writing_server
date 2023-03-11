@@ -1,0 +1,54 @@
+[
+  {
+    "model": "cawapi.user",
+    "pk": 1,
+    "fields": {
+      "uid": "user1",
+      "id": 1,
+      "first_name": "John",
+      "last_name": "Smith",
+      "email": "jsmith@aol.com",
+      "profile_image_url": "https://upload.wikimedia.org/wikipedia/en/1/1b/NPC_wojak_meme.png",
+      "created_on": "2015-12-20"
+    }
+  },
+  {
+    "model": "cawapi.user",
+    "pk": 2,
+    "fields": {
+      "uid": "user2",
+      "id": 2,
+      "first_name": "Jacob",
+      "last_name": "Marker",
+      "email": "jam@aol.com",
+      "profile_image_url": "https://upload.wikimedia.org/wikipedia/en/1/1b/NPC_wojak_meme.png",
+      "created_on": "2016-01-19"
+    }
+  },
+  {
+    "model": "cawapi.user",
+    "pk": 3,
+    "fields": {
+      "uid": "user1",
+      "id": 3,
+      "first_name": "John",
+      "last_name": "Smith",
+      "email": "jsmith@aol.com",
+      "profile_image_url": "https://upload.wikimedia.org/wikipedia/en/1/1b/NPC_wojak_meme.png",
+      "created_on": "2017-02-18"
+    }
+  },
+  {
+    "model": "cawapi.user",
+    "pk": 4,
+    "fields": {
+      "uid": "zZUIgYup6TX6ilHVqpwt30iwFrH2",
+      "id": 4,
+      "first_name": "Michael",
+      "last_name": "Pennington",
+      "email": "mwpennington90@gmail.com",
+      "profile_image_url": "https://i.kym-cdn.com/entries/icons/original/000/026/152/gigachad.jpg",
+      "created_on": "1990-02-19"
+    }
+  }
+]
