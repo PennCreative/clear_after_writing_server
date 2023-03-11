@@ -36,5 +36,8 @@ urlpatterns = [
     path('today', todaysJournalView.as_view(), name='today-journals'),
     path('<str:date>', todaysJournalView.as_view(), name='journals-by-date'),
     path('writer-journals/', WriterJournalView.as_view({'get': 'list_by_writer_id'}), name='writer-journals'),
-    path('surveys/', StatView.as_view({'get': 'list'}), name='surveys-by-journal-id')
+    path('surveys/', StatView.as_view({'get': 'list'}), name='surveys-by-journal-id'),
+    path('surveys/<int:id>', SurveyView.as_view({'get': 'retrieve'}), name='survey-detail'),
+    path('surveys-by-journal-id/', StatView.as_view({'get': 'list'}), name='surveys-by-journal-id')
+
 ]
