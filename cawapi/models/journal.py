@@ -3,7 +3,7 @@ from .user import User
 
 class Journal(models.Model):
     writer = models.ForeignKey(User, on_delete=models.CASCADE)
-    date = models.DateField(auto_now_add=True)
+    date = models.DateField()
     goal_entry = models.CharField(max_length=500)
     affirmation = models.CharField(max_length=255)
     distraction = models.CharField(max_length=255)
