@@ -34,7 +34,7 @@ class StatView(ViewSet):
         if id_query is not None:
             stat = stat.filter(stat=id_query)
 
-        if id_query is not None:
+        elif id_query is not None:
             stat = Stat.objects.filter(id=id_query)
             serializer = StatSerializer(stat, many=True)
             return Response(serializer.data)
@@ -50,11 +50,12 @@ class StatView(ViewSet):
         """POST for Stats"""
         journal = Journal.objects.get(pk=request.data['journal'])
         survey = Survey.objects.get(pk=request.data['survey'])
+        # rating = Journal.objects.get(pk=request.data['overall_rating'])
 
         stat = Stat.objects.create(
             journal = journal,
             survey = survey,
-            rating = request.data['rating'],
+            rating = 0,
         )
 
         serializer = StatSerializer(stat)

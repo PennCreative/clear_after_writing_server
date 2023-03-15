@@ -103,8 +103,7 @@ class todaysJournalView(generics.ListCreateAPIView):
 class WriterJournalView(ViewSet):
     """Request Handlers for Journals filtered by writer's id"""
     serializer_class = JournalSerializer
-    
-    @action(detail=False, methods=['get'])
+
     def list_by_writer_id(self, request):
         writer_id = request.query_params.get('writer_id')
         if not writer_id:
